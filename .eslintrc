@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": ["airbnb","prettier"],
+  "extends": ["airbnb","airbnb/hooks","prettier"],
   "env": {
     "browser": true,
     "es6": true,
@@ -8,6 +8,9 @@
   },
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["error"],
+    "import/no-unresolved": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/prop-types": 0
   }
 }
