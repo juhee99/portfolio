@@ -11,7 +11,7 @@ function AboutView() {
     >
       <section className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl mb-16 text-left text-white font-bold underline underline-offset-8 decoration-yellow-300">
-          About Me
+          ABOUT ME
         </h2>
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 space-y-10">

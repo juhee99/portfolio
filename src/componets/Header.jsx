@@ -21,16 +21,16 @@ function Header() {
             activeClass="text-yellow-400 font-bold"
             className="cursor-pointer text-white hover:text-yellow-400"
           >
-            About Me
+            ABOUT ME
           </Link>
           <Link
-            to="skill"
+            to="skills"
             smooth
             duration={500}
             activeClass="text-yellow-400 font-bold"
             className="cursor-pointer text-white hover:text-yellow-400"
           >
-            Skill
+            SKILLS
           </Link>
           <Link
             to="project"
@@ -39,7 +39,7 @@ function Header() {
             activeClass="text-yellow-400 font-bold"
             className="cursor-pointer text-white hover:text-yellow-400"
           >
-            Project
+            PROJECT
           </Link>
           <Link
             to="career"
@@ -48,7 +48,7 @@ function Header() {
             activeClass="text-yellow-400 font-bold"
             className="cursor-pointer text-white hover:text-yellow-400"
           >
-            Career
+            CAREER
           </Link>
         </nav>
       </div>
