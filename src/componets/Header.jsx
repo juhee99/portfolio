@@ -4,14 +4,14 @@ import { Link } from 'react-scroll';
 function Header() {
   return (
     <header className="fixed top-0 navbar bg-success-content text-white shadow-neutral-400 shadow px-5 min-h-16 max-h-16 z-50">
-      <div className="flex w-full justify-between">
+      <div className="flex w-full justify-between md:px-5">
         <Link
           to="introduce"
           smooth
           duration={500}
-          className="cursor-pointer text-white text-lg md:text-2xl "
+          className="cursor-pointer text-white text-lg md:text-2xl xl:ml-40 "
         >
-          JuHee Portfolio
+          JUHEE PORTFOLIO
         </Link>
         <nav className="flex text-sm lg:text-lg space-x-2 lg:space-x-5 p-2">
           <Link

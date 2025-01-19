@@ -3,6 +3,7 @@ import Container from '../componets/Container';
 import IntroduceView from './IntroduceView';
 import AboutView from './AboutView';
 import SkillsView from './SkillsView';
+import ProjectView from './ProjectView';
 
 function MainView() {
   return (
@@ -10,7 +11,7 @@ function MainView() {
       <IntroduceView />
       <AboutView />
       <SkillsView />
-      <Container name="project" />
+      <ProjectView />
       <Container name="career" />
     </main>
   );
