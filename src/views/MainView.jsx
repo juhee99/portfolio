@@ -1,9 +1,9 @@
 import React from 'react';
-import Container from '../componets/Container';
 import IntroduceView from './IntroduceView';
 import AboutView from './AboutView';
 import SkillsView from './SkillsView';
 import ProjectView from './ProjectView';
+import CareerView from './CareerView';
 
 function MainView() {
   return (
@@ -12,7 +12,7 @@ function MainView() {
       <AboutView />
       <SkillsView />
       <ProjectView />
-      <Container name="career" />
+      <CareerView />
     </main>
   );
 }
