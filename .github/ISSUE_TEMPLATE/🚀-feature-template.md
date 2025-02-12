@@ -7,14 +7,6 @@ assignees: ''
 
 ---
 
----
-name: "feat: 제목"
-about: "새로운 작업을 등록합니다."
-title: "[Task] "
-labels: ["feature"]
-assignees: ["{{ github.actor }}"]
----
-
 ## ✨ 작업 내용
 어떤 작업인지 설명해주세요.
 
@@ -23,3 +15,7 @@ assignees: ["{{ github.actor }}"]
 
 ## 📌 추가 설명
 추가로 남길 내용이 있다면 작성해주세요.( 특이 사항, 어려운 점 등..)
+
+
+/labels feature
+/assignees @me
